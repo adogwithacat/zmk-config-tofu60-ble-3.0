@@ -22,11 +22,11 @@
 
         layer1 {
             bindings = <
-    &trans   &kp F1  &kp F2         &kp F3    &kp F4            &kp F5        &kp F6        &kp F7   &kp F8    &kp F9       &kp F10  &kp F11  &kp F12  &trans  &trans
+    &trans   &kp F1  &kp F2         &kp F3    &kp F4            &kp F5        &kp F6        &kp F7   &kp F8    &kp F9       &kp F10  &kp F11  &kp F12  &trans       &trans
     &trans   &trans  &kp C_AC_BACK  &kp UP    &kp C_AC_FORWARD  &kp C_MUTE    &trans        &kp INS  &kp HOME  &kp PG_UP    &trans   &trans   &trans   &trans 
     &kp ESC  &trans  &kp LEFT       &kp DOWN  &kp RIGHT         &kp C_VOL_UP  &kp BSPC      &kp DEL  &kp END   &kp PG_DN    &trans   &trans   &trans
-    &trans   &trans  &trans         &trans    &trans            &trans        &kp C_VOL_DN  &trans   &trans    &trans       &trans   &trans   &trans   &trans
-    &kp N0   &kp N0  &kp N1                                     &trans                                         &Device_USB  &UF_BT1  &UF_BT2  &UF_BT3
+    &trans   &trans  &trans         &trans    &trans            &trans        &kp C_VOL_DN  &trans   &trans    &trans       &UF_BT1  &UF_BT2  &UF_BT3  &Device_USB
+    &kp N0   &kp N0  &kp N1                                     &trans                                         &trans       &trans   &trans   &trans
             >;
         };
         layer2 { status = "reserved"; };
